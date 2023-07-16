@@ -7,6 +7,10 @@ module.exports = {
     {
       name: "@electron-forge/maker-deb",
       platforms: ["linux"],
+      options: {
+        maintainer: "Muhammad Abdur Rofi Maulidin",
+        homepage: "https://github.com/mrofisr/electron-apps",
+      },
     },
     {
       name: "@electron-forge/maker-dmg",
