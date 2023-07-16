@@ -11,7 +11,7 @@ This repository contains the source code for Electron Apps, an application built
 
 ## About
 
-Electron Apps is a cross-platform desktop application that provides [insert brief description of the application here].
+Electron Apps is a cross-platform desktop application that provides.
 
 ## Getting Started
 
