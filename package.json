@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@electron-forge/cli": "^6.2.1",
+    "@electron-forge/maker-deb": "^6.2.1",
+    "@electron-forge/maker-dmg": "^6.2.1",
+    "@electron-forge/maker-squirrel": "^6.2.1",
+    "@electron-forge/maker-zip": "^6.2.1",
+    "@electron-forge/publisher-github": "^6.2.1",
+    "electron": "^25.3.0"
+  },
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "name": "electron-apps",
+  "version": "1.0.0",
+  "main": "src/main/main.js",
+  "repository": "https://github.com/mrofisr/electron-apps",
+  "author": "Muhammad Abdur Rofi Maulidin",
+  "license": "MIT",
+  "config": {
+    "forge": "./forge.config.js"
+  }
+}
