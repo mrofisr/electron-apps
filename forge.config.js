@@ -7,9 +7,17 @@ module.exports = {
     {
       name: "@electron-forge/maker-deb",
       platforms: ["linux"],
-      options: {
-        maintainer: "Muhammad Abdur Rofi Maulidin",
-        homepage: "https://github.com/mrofisr/electron-apps",
+      config: {
+        options: {
+          bin: "electron-apps",
+          name: "electron-apps",
+          maintainer: "Muhammad Abdur Rofi Maulidin",
+          homepage: "https://github.com/mrofisr/electron-apps",
+          productName: "electron-apps",
+          description: "electron-apps",
+          productDescription: "electron-apps",
+          version: "1.0.0",
+        },
       },
     },
     {
