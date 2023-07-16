@@ -16,7 +16,7 @@ jobs:
     # Define the matrix for different operating systems and architecture
     strategy:
       matrix:
-        os: [macOS-latest, ubuntu-22.04, windows-latest]
+        os: [macOS-latest, ubuntu-20.04, windows-latest]
         arch: [x64]
 
     steps:
