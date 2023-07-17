@@ -14,7 +14,7 @@
     "make": "electron-forge make"
   },
   "name": "electron-apps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/main/main.js",
   "repository": "https://github.com/mrofisr/electron-apps",
   "author": "Muhammad Abdur Rofi Maulidin",

@@ -1,3 +1,5 @@
+const package = require('./package.json'); // Add this line to import the package.json file
+
 module.exports = {
   makers: [
     {
@@ -16,7 +18,7 @@ module.exports = {
           productName: "electron-apps",
           description: "electron-apps",
           productDescription: "electron-apps",
-          version: "1.0.0",
+          version: package.version, // Use package.version to access the version from package.json
         },
       },
     },
